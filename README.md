@@ -1,4 +1,4 @@
-# pokemon
+# foot
 
 ## Project setup
 ```
