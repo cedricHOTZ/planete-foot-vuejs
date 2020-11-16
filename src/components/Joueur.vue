@@ -8,7 +8,7 @@
           @mouseover="hover = true"
         >
           <div class="card-deck">
-            <div class="card">
+            <div class="card" :class="card">
               <img
                 class="img-responsive logo "
                 :src="joueur.logo"
@@ -62,22 +62,9 @@ export default {
 .card-deck {
   margin: 0px !important ;
 }
-// .electrique {
-//   background-color: yellow;
-// }
-
-// .feu {
-//   background-image: url("https://bonbon-france.fr/wp-content/uploads/2019/03/france.png");
-//   background-repeat: no-repeat;
-
-//   background-size: 550px;
-// }
-// .force {
-//   background-color: grey;
-// }
-// .eau {
-//   background-color: blue;
-// }
+.card {
+  border-radius: 33px !important;
+}
 
 button {
   animation: buttonshow 0.4s;

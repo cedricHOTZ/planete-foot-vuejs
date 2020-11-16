@@ -52,6 +52,7 @@ export default {
   font-size: 20px;
   font-weight: bold;
   color: black;
+  border-radius: 15px;
   background: linear-gradient(to left, red, white, blue 85%);
 }
 input.center {
